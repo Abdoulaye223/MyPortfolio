@@ -73,8 +73,9 @@ document
       return;
     }
 
-    // Simulate form submission
-    
+      // if validation passes, submit the form
+      this.submit();
+  });
 
 // Add intersection observer for animations
 const observerOptions = {
@@ -98,6 +99,7 @@ document.querySelectorAll(".skill-card, .project-card").forEach((card) => {
   card.style.transition = "opacity 0.6s ease, transform 0.6s ease";
   observer.observe(card);
 });
+
 
 
 
