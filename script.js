@@ -74,18 +74,7 @@ document
     }
 
     // Simulate form submission
-    const submitButton = this.querySelector('button[type="submit"]');
-    const originalText = submitButton.textContent;
-    submitButton.textContent = "Sending...";
-    submitButton.disabled = true;
-
-    setTimeout(() => {
-      alert(`Thank you, ${name}! Your message has been sent successfully.`);
-      this.reset();
-      submitButton.textContent = originalText;
-      submitButton.disabled = false;
-    }, 2000);
-  });
+    
 
 // Add intersection observer for animations
 const observerOptions = {
@@ -109,3 +98,4 @@ document.querySelectorAll(".skill-card, .project-card").forEach((card) => {
   card.style.transition = "opacity 0.6s ease, transform 0.6s ease";
   observer.observe(card);
 });
+
