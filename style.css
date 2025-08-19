@@ -631,6 +631,14 @@ body {
 
   .hero-content h1 {
     font-size: 2.5rem;
+    padding-top:4.5rem;
+  }
+
+  .about-content {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .about-content,
@@ -648,3 +656,4 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
