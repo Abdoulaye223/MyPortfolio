@@ -627,6 +627,7 @@ body {
     grid-template-columns: 1fr;
     text-align: center;
     gap: 2rem;
+    margin-bottom:2.5rem;
   }
 
   .hero-content h1 {
@@ -656,4 +657,5 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
 
