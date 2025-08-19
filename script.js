@@ -72,7 +72,7 @@ document
       alert("Please fill in all required fields.");
       return;
     }
-
+  });
     // Simulate form submission
     
 
