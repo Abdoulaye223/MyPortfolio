@@ -97,6 +97,7 @@ document.querySelectorAll(".skill-card, .project-card").forEach((card) => {
   card.style.transform = "translateY(20px)";
   card.style.transition = "opacity 0.6s ease, transform 0.6s ease";
   observer.observe(card);
-})});
+});
+
 
 
