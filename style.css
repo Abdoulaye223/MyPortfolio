@@ -572,6 +572,11 @@ body {
   transform: translateY(-3px);
 }
 
+.social-links img {
+  height: 25px;
+  width: 25px;
+}
+
 /* Animations */
 @keyframes fadeInUp {
   from {
@@ -657,5 +662,6 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
 
 
